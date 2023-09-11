@@ -1,0 +1,48 @@
+header {
+    background-color: rgb(250, 248, 248);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+}
+
+.g-3 {
+    border: 1px solid;
+    margin: auto;
+    border-color: gray;
+    border-top: none;
+}
+
+.p-3 {
+    border-radius: 5px;
+}
+
+.buttons-area {
+    display: flex;
+    background-color: rgb(250, 248, 248);
+    justify-content: end;
+    padding: 15px;
+    border-top: 1px solid gray;
+ }
+
+.btn-primary {
+    margin-left: 10px;
+}
+
+p {
+    color: rgb(206, 205, 205);
+    font-size: 70%;
+}
+
+.payment-container {
+    display: flex;
+
+}
+.payment-options {
+    display: flex;
+    background-color: gray;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    flex: 0.4;
+    justify-content: space-between;
+}
